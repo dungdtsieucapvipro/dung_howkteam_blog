@@ -11,16 +11,18 @@
         <link rel="stylesheet" href="resources/css/queries.css">
     </head>
     <body>
-        <header>
-            <a href="#"><img class="logo" src="./resources/img/logo.png" alt="logo"></a>
-            <ul class="main-nav">
-                <!-- unordered list -->
-                <li><a href="#">How Clients Think</a></li>
-                <!-- list item -->
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <header id="home">
+            <nav >
+                <a href="#home"><img class="logo" src="./resources/img/logo.png" alt="logo"></a>
+                <ul class="main-nav">
+                    <!-- unordered list -->
+                    <li><a href="#testimonials">How Clients Think</a></li>
+                    <!-- list item -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
             <div class="clearfix"></div>
             <div class="row">
                 <div class="heading-main-box">
@@ -28,8 +30,8 @@
                         We will study <br> English together.<br>
                         So join with us.
                     </h1>
-                    <a href="#" class="btn">Tell me more</a>
-                    <a href="#" class="btn">Join us</a>
+                    <a href="#about" class="btn">Tell me more</a>
+                    <a href="#product" class="btn">Join us</a>
                 </div>
             </div>
         </header>
@@ -41,7 +43,7 @@
                 <div style="background-color: red" class="col span-1-of-4">cot 1</div>
             </div>
         </section> -->
-        <section class="about-section">
+        <section class="about-section" id="about">
             <div class="row">
                 <h2>About Us</h2>
                 <p class="p-long">
@@ -75,7 +77,7 @@
                   </div>
             </div>
         </section>
-        <section class="products-section">
+        <section class="products-section" id="product">
             <h2>Products</h2>
             <div class="row">
                 <div class="col span-1-of-3">
@@ -113,7 +115,7 @@
                 </div>
             </div>
         </section>
-        <section class="testimonials-section">
+        <section class="testimonials-section" id="testimonials">
             <h2>Testimonials</h2>
             <div class="row">
                 <div class="col span-1-of-3">
@@ -142,7 +144,7 @@
                 </div>
             </div>
         </section>
-        <section class="sponsors-section">
+        <section class="sponsors-section" id="sponsors">
             <h2>Sponsors</h2>
             <div class="row">
                 <ul class="sponsors-showcase clearfix">
@@ -199,7 +201,7 @@
                 </ul>
             </div>
         </section>
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
             <div class="row">
                 <div class="col span-1-of-3">
                     <ul class="information">
